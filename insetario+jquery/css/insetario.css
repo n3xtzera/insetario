@@ -1,0 +1,225 @@
+*{
+	font-family: 'Montserrat', sans-serif;
+}
+#titulo{
+	font-size:50px;
+	color:white;
+	margin-bottom: 30px;
+	font-weight: bold;
+}
+#cabecalho{
+	position: absolute;
+	top:0;
+	left:0;
+	width: 100%;
+	background-color: none;
+	height:100px;
+}
+#footer{
+	color:white;
+	position: absolute;
+	bottom:10px;
+	left:30px;
+}
+#content{
+	margin:20px;
+}
+.pad{
+	padding:5px;
+	padding-bottom: 10px
+}
+#login_text{
+	font-size:15px;
+	margin-left: 5px
+}
+/*Botão de login*/
+.blable{
+	transition: background-color 0.5s;
+	border:none;
+	color:white;
+	height:40px;
+	width:120px;
+	font-size:15px;
+	box-shadow: 0 0.5em 1em #222;
+	text-align: center;
+  	text-transform: uppercase;
+  	cursor: pointer;
+	margin-top:20px;
+}
+#white{
+	background-color:white;
+	color:black;
+}
+.cadastrar{
+	transition: background-color 0.5s;
+	background-color: #05bf51;
+	border:none;
+	color:white;
+	height:40px;
+	width:120px;
+	font-size:15px;
+	text-align: center;
+  	text-transform: uppercase;
+  	cursor: pointer;
+	margin-top:20px;
+}
+.blable:hover{
+	transition: background-color 0.3s;
+	color:white;
+	background-color: #0c9b50;
+}
+#logo{
+	height:90px;
+}
+#cabecalho{
+	z-index:999;
+	width:100%;
+}
+#cabecalho_title{
+	margin-left: 10px;
+	font-size:20px;
+	color:white;
+}
+@media screen and (max-width: 450px) {
+  #cabecalho_title{
+    display:none;
+  }
+}
+.redirect_buttons{
+	width:100px;
+	margin-right: 5px;
+}
+.search_area{
+	width:728px;
+	margin: auto;
+	margin-top:120px;
+}
+#search_bar{
+	margin:0 10px 0 10px;
+	width:500px;	
+}
+.itens_list{
+	width:1100px;
+	margin: auto;
+	margin-top:30px;
+}
+.search_button{
+	min-width: 100px;
+	height: 40px;
+	background: #fa4251;
+	border-radius: 2px;
+	color: #fff;
+	transition: all .2s ease-out, color .2s ease-out;
+	border: 0;
+	cursor: pointer;
+	font-family: 'Poppins', sans-serif;
+}
+.form-control.form-control-sm.mr-3.w-75{
+	border: 0;
+	width:500px;
+	height:35px;
+	border-radius:3px;
+}
+#itens_box{
+	color:white;
+	margin:auto;
+	top:20px;
+	text-align: left;
+	padding:15px 15px 15px 15px;
+	width:1100px;
+}
+#form{
+	border-radius:10px;
+	opacity: 0.9;
+	position: absolute;
+	top: 0; bottom: 0;
+	left: 0; right: 0;
+	margin: auto;
+	width:900px;
+	background-color:#ededed;
+}
+.form1{
+	height:600px;
+}
+.form2{
+	height:700px;
+}
+.form3{
+	height:630px;
+}
+.form4{
+	height:500px;
+}
+#delimeter{
+	margin-top:20px;
+	width:800px;
+}
+.form-group{
+	padding-bottom:5px;
+	margin:0;
+	text-align: left;
+}
+.form-control{
+	height:40px;
+	padding-bottom:0;
+}
+label{
+	color:black;
+}
+h1{
+	margin:0;
+	padding:0;
+}
+.cadastrar{
+	border-radius: 25px;
+	width:150px;
+	height: 40px;
+}
+#text{
+	resize:none;
+	height:80px;
+}
+#user-menu{
+	margin-top:20px;
+	height:40px;
+}
+#user-img{
+	height:25px;
+	padding-right:10px;
+}
+.familia{
+	color:red;
+	position: relative;
+	padding-bottom:-15px;
+	top:-10px;
+	margin-bottom:-10px;
+	border:none;
+}
+.ncie{
+	color:#9e9e9e;
+	font-size:15px;
+	padding-top:-10px;
+	left:15px;
+	position: relative;
+	top:-10px;
+	margin-bottom:0;
+}
+.ncom{
+	color:white;
+	padding:5px;
+	font-size:20px;
+}
+.pesquisa{
+	opacity: 0.9;
+	border:none;
+	border-radius:10px;
+	width:90%;
+}
+.buttons_table{
+	vertical-align: middle;
+	text-align: center;
+	width:130px;
+}
+#botaofdc{
+	margin-top:17.5px;
+}
